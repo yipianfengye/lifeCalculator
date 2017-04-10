@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:text="生逢何时"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="@dimen/padding_left_right"
+        android:paddingRight="@dimen/padding_left_right"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="出生日期：19900612"
+            />
+
+        <Button
+            android:id="@+id/startCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始计算"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/normal_text_size"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
